@@ -95,9 +95,7 @@ namespace DOTNET_RPG.Services.CharacterService
                 response.Success = false;
                 response.Message = ex.Message;
             }
-
-            //response.Message = "This updated a character" + character.Id;
-
+            
             return response;
         }
     }
