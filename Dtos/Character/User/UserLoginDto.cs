@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DOTNET_RPG.Dtos.Character.User
 {
-    public class UserRegisterDto
+    public class UserLoginDto
     {
         public string Username { get; set; } = string.Empty;
 
